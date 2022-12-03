@@ -1,0 +1,210 @@
+/* main body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #00E7FF , #009EFF 25% , #C147E9 60%, #810CA8 90%);
+}
+
+/* front page */
+h1 {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    font-size: 4rem;
+    line-height: 1.275;
+    padding: 2.5%;
+}
+
+.welcome {
+    margin: 7.5% 0;
+    margin-top: 15%;
+}
+
+.page-heading {
+    margin: 5%;
+}
+
+hr {
+    border: dotted #fff 10px;
+    border-bottom: none;
+    margin: auto;
+}
+
+/* tutorial section */
+.explanation-heading {
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 2.25;
+    margin-top: 7.5%;
+}
+
+.steps {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 45% 0;
+}
+
+.explanation-para {
+    font-size: 1.225rem;
+    line-height: 1.5;
+}
+
+.explanation {
+    margin: 5%;
+}
+
+.encryption {
+    margin-bottom: 7.5%;
+}
+
+.decryption {
+    margin-bottom: 7.5%;
+}
+
+.buttons {
+    margin-top: 15%;
+}
+
+/* Navbar */
+nav {
+    letter-spacing: 0.05rem;
+}
+
+.navbar {
+    padding: 3.5%;
+    background: linear-gradient(to right, #00E7FF, #009EFF 25%, #C147E9 60%, #810CA8 90%);
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 2rem;
+    padding-left: 3.5%;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Encoding Page */
+.encryption-heading {
+    margin: 5%; 
+}
+
+#encode {
+    background: linear-gradient(to right, #00C1D5, #0082D3 25%, #9A38B9 60%, #560970 90%);
+    padding-bottom: 10%;
+}
+
+label {
+    margin: 5% 0;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+input {
+    margin: 2% 0;
+}
+
+.output {
+    background-color: white;
+}
+/* Decoding Page */
+#decode {
+    padding-top: 10%;
+    background: linear-gradient(to right, #92F4FE, #4BB8FC 25%, #D880F4 60%, #8840A0 90%);
+}
+
+.footer {
+    margin: 5%;
+    text-align: center;
+}
+
+.credits {
+    font-size: 0.8rem;
+}
+
+.encoded-result {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.decoded-result {
+    font-size: 1.2rem;
+}
+
+@media only screen and (min-width : 900px) {
+    .navbar {
+        padding: 1.5%;
+    }
+
+    .welcome {
+        margin: 0;
+        margin-top: 5%;
+        margin-bottom: 1.5%;
+    }
+
+    .encryption-heading {
+        margin: 2%;
+    }
+
+    .page-heading {
+        margin: 2%;
+    }
+
+    .encrypt-head {
+        margin-top: 0;
+    }
+
+    .explanation {
+        margin: 2%;
+        padding-left: 2%;
+    }
+
+    .explanation-heading {
+        margin-top: 2%;
+    }
+
+    .encryption {
+        margin-bottom: 2%;
+    }
+
+    .decryption {
+        margin-bottom: 2%;
+    }
+
+    #encode {
+        padding-bottom: 2%;
+    }
+
+    #decode {
+        padding-top: 2%;
+    }
+
+    label {
+        margin: 2%;
+    }
+
+    .form-control {
+        margin: 2%;
+    }
+
+    .btn {
+        margin-left: 2%;
+    }
+
+    .footer {
+        margin: 2%;
+    }
+
+    .encoded-result {
+        margin-left: 2%;
+    }
+
+    .decoded-result {
+        margin-left: 2%;
+    }
+}
