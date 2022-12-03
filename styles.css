@@ -208,3 +208,11 @@ input {
         margin-left: 2%;
     }
 }
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: black;
+}
